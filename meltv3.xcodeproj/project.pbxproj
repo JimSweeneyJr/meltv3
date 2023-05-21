@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22D8111F2A1992F100230978 /* meltv3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D8111E2A1992F100230978 /* meltv3App.swift */; };
+		22D811212A1992F100230978 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D811202A1992F100230978 /* ContentView.swift */; };
+		22D811232A1992F300230978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D811222A1992F300230978 /* Assets.xcassets */; };
+		22D811262A1992F300230978 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D811252A1992F300230978 /* Preview Assets.xcassets */; };
+		22D811302A1992F300230978 /* meltv3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D8112F2A1992F300230978 /* meltv3Tests.swift */; };
+		22D8113A2A1992F300230978 /* meltv3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D811392A1992F300230978 /* meltv3UITests.swift */; };
+		22D8113C2A1992F300230978 /* meltv3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D8113B2A1992F300230978 /* meltv3UITestsLaunchTests.swift */; };
+		306AB150DD8FD69B6CDCED6A /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3477449B9FBF0D6C1A06170 /* Slide.swift */; };
+		61F56C71999EAB62DCA76001 /* Slide+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026543DA29E59A0F2CDD6CE1 /* Slide+Schema.swift */; };
+		B0759A98B2CBF7CE94084571 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EF491ABC50E45CCAB386C1 /* AmplifyModels.swift */; };
+		B5646B927C4FC195D4131F33 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 78ADAEFFA7A832987A086FD4 /* awsconfiguration.json */; };
+		F64EC1D98357948B47200472 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 526934C42160BB7E80D6C205 /* amplifyconfiguration.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22D8112C2A1992F300230978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22D811132A1992F100230978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22D8111A2A1992F100230978;
+			remoteInfo = meltv3;
+		};
+		22D811362A1992F300230978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22D811132A1992F100230978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22D8111A2A1992F100230978;
+			remoteInfo = meltv3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026543DA29E59A0F2CDD6CE1 /* Slide+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; lastKnownFileType = sourcecode.swift; name = "Slide+Schema.swift"; path = "amplify/generated/models/Slide+Schema.swift"; sourceTree = "<group>"; };
+		22D8111B2A1992F100230978 /* meltv3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meltv3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D8111E2A1992F100230978 /* meltv3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meltv3App.swift; sourceTree = "<group>"; };
+		22D811202A1992F100230978 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22D811222A1992F300230978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22D811252A1992F300230978 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22D8112B2A1992F300230978 /* meltv3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meltv3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D8112F2A1992F300230978 /* meltv3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meltv3Tests.swift; sourceTree = "<group>"; };
+		22D811352A1992F300230978 /* meltv3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meltv3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D811392A1992F300230978 /* meltv3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meltv3UITests.swift; sourceTree = "<group>"; };
+		22D8113B2A1992F300230978 /* meltv3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meltv3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		526934C42160BB7E80D6C205 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; lastKnownFileType = text.json; name = amplifyconfiguration.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		78ADAEFFA7A832987A086FD4 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; lastKnownFileType = text.json; name = awsconfiguration.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		91EF491ABC50E45CCAB386C1 /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; lastKnownFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		E3477449B9FBF0D6C1A06170 /* Slide.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; lastKnownFileType = sourcecode.swift; name = Slide.swift; path = amplify/generated/models/Slide.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22D811182A1992F100230978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D811282A1992F300230978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D811322A1992F300230978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22D811122A1992F100230978 = {
+			isa = PBXGroup;
+			children = (
+				22D8111D2A1992F100230978 /* meltv3 */,
+				22D8112E2A1992F300230978 /* meltv3Tests */,
+				22D811382A1992F300230978 /* meltv3UITests */,
+				22D8111C2A1992F100230978 /* Products */,
+				C2900B6C4FF5E84EE99E51F4 /* AmplifyConfig */,
+				DC9CA5ABED84FA6E8398F9BC /* AmplifyModels */,
+			);
+			sourceTree = "<group>";
+		};
+		22D8111C2A1992F100230978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22D8111B2A1992F100230978 /* meltv3.app */,
+				22D8112B2A1992F300230978 /* meltv3Tests.xctest */,
+				22D811352A1992F300230978 /* meltv3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22D8111D2A1992F100230978 /* meltv3 */ = {
+			isa = PBXGroup;
+			children = (
+				22D8111E2A1992F100230978 /* meltv3App.swift */,
+				22D811202A1992F100230978 /* ContentView.swift */,
+				22D811222A1992F300230978 /* Assets.xcassets */,
+				22D811242A1992F300230978 /* Preview Content */,
+			);
+			path = meltv3;
+			sourceTree = "<group>";
+		};
+		22D811242A1992F300230978 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				22D811252A1992F300230978 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22D8112E2A1992F300230978 /* meltv3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				22D8112F2A1992F300230978 /* meltv3Tests.swift */,
+			);
+			path = meltv3Tests;
+			sourceTree = "<group>";
+		};
+		22D811382A1992F300230978 /* meltv3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				22D811392A1992F300230978 /* meltv3UITests.swift */,
+				22D8113B2A1992F300230978 /* meltv3UITestsLaunchTests.swift */,
+			);
+			path = meltv3UITests;
+			sourceTree = "<group>";
+		};
+		C2900B6C4FF5E84EE99E51F4 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				78ADAEFFA7A832987A086FD4 /* awsconfiguration.json */,
+				526934C42160BB7E80D6C205 /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			sourceTree = "<group>";
+		};
+		DC9CA5ABED84FA6E8398F9BC /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				91EF491ABC50E45CCAB386C1 /* AmplifyModels.swift */,
+				026543DA29E59A0F2CDD6CE1 /* Slide+Schema.swift */,
+				E3477449B9FBF0D6C1A06170 /* Slide.swift */,
+			);
+			name = AmplifyModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22D8111A2A1992F100230978 /* meltv3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D8113F2A1992F300230978 /* Build configuration list for PBXNativeTarget "meltv3" */;
+			buildPhases = (
+				22D811172A1992F100230978 /* Sources */,
+				22D811182A1992F100230978 /* Frameworks */,
+				22D811192A1992F100230978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meltv3;
+			productName = meltv3;
+			productReference = 22D8111B2A1992F100230978 /* meltv3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22D8112A2A1992F300230978 /* meltv3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D811422A1992F300230978 /* Build configuration list for PBXNativeTarget "meltv3Tests" */;
+			buildPhases = (
+				22D811272A1992F300230978 /* Sources */,
+				22D811282A1992F300230978 /* Frameworks */,
+				22D811292A1992F300230978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22D8112D2A1992F300230978 /* PBXTargetDependency */,
+			);
+			name = meltv3Tests;
+			productName = meltv3Tests;
+			productReference = 22D8112B2A1992F300230978 /* meltv3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22D811342A1992F300230978 /* meltv3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D811452A1992F300230978 /* Build configuration list for PBXNativeTarget "meltv3UITests" */;
+			buildPhases = (
+				22D811312A1992F300230978 /* Sources */,
+				22D811322A1992F300230978 /* Frameworks */,
+				22D811332A1992F300230978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22D811372A1992F300230978 /* PBXTargetDependency */,
+			);
+			name = meltv3UITests;
+			productName = meltv3UITests;
+			productReference = 22D811352A1992F300230978 /* meltv3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22D811132A1992F100230978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					22D8111A2A1992F100230978 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					22D8112A2A1992F300230978 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 22D8111A2A1992F100230978;
+					};
+					22D811342A1992F300230978 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 22D8111A2A1992F100230978;
+					};
+				};
+			};
+			buildConfigurationList = 22D811162A1992F100230978 /* Build configuration list for PBXProject "meltv3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22D811122A1992F100230978;
+			productRefGroup = 22D8111C2A1992F100230978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22D8111A2A1992F100230978 /* meltv3 */,
+				22D8112A2A1992F300230978 /* meltv3Tests */,
+				22D811342A1992F300230978 /* meltv3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22D811192A1992F100230978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D811262A1992F300230978 /* Preview Assets.xcassets in Resources */,
+				22D811232A1992F300230978 /* Assets.xcassets in Resources */,
+				B5646B927C4FC195D4131F33 /* awsconfiguration.json in Resources */,
+				F64EC1D98357948B47200472 /* amplifyconfiguration.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D811292A1992F300230978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D811332A1992F300230978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22D811172A1992F100230978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D811212A1992F100230978 /* ContentView.swift in Sources */,
+				22D8111F2A1992F100230978 /* meltv3App.swift in Sources */,
+				B0759A98B2CBF7CE94084571 /* AmplifyModels.swift in Sources */,
+				61F56C71999EAB62DCA76001 /* Slide+Schema.swift in Sources */,
+				306AB150DD8FD69B6CDCED6A /* Slide.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D811272A1992F300230978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D811302A1992F300230978 /* meltv3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D811312A1992F300230978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D8113A2A1992F300230978 /* meltv3UITests.swift in Sources */,
+				22D8113C2A1992F300230978 /* meltv3UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22D8112D2A1992F300230978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22D8111A2A1992F100230978 /* meltv3 */;
+			targetProxy = 22D8112C2A1992F300230978 /* PBXContainerItemProxy */;
+		};
+		22D811372A1992F300230978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22D8111A2A1992F100230978 /* meltv3 */;
+			targetProxy = 22D811362A1992F300230978 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22D8113D2A1992F300230978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22D8113E2A1992F300230978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22D811402A1992F300230978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"meltv3/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.meltv3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22D811412A1992F300230978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"meltv3/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.meltv3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22D811432A1992F300230978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.meltv3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meltv3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/meltv3";
+			};
+			name = Debug;
+		};
+		22D811442A1992F300230978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.meltv3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meltv3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/meltv3";
+			};
+			name = Release;
+		};
+		22D811462A1992F300230978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.meltv3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = meltv3;
+			};
+			name = Debug;
+		};
+		22D811472A1992F300230978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.meltv3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = meltv3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22D811162A1992F100230978 /* Build configuration list for PBXProject "meltv3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D8113D2A1992F300230978 /* Debug */,
+				22D8113E2A1992F300230978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22D8113F2A1992F300230978 /* Build configuration list for PBXNativeTarget "meltv3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D811402A1992F300230978 /* Debug */,
+				22D811412A1992F300230978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22D811422A1992F300230978 /* Build configuration list for PBXNativeTarget "meltv3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D811432A1992F300230978 /* Debug */,
+				22D811442A1992F300230978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22D811452A1992F300230978 /* Build configuration list for PBXNativeTarget "meltv3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D811462A1992F300230978 /* Debug */,
+				22D811472A1992F300230978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22D811132A1992F100230978 /* Project object */;
+}

@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "meltv3",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2023-05-20T23:59:03.277Z"
+}

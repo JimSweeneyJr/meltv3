@@ -1,0 +1,6 @@
+type Slide @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  title: String
+  blog: String
+  link: String
+} 

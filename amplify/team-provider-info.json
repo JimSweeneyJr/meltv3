@@ -1,0 +1,23 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-meltv3-staging-233036-authRole",
+      "UnauthRoleArn": "arn:aws:iam::740740576418:role/amplify-meltv3-staging-233036-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::740740576418:role/amplify-meltv3-staging-233036-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-meltv3-staging-233036-deployment",
+      "UnauthRoleName": "amplify-meltv3-staging-233036-unauthRole",
+      "StackName": "amplify-meltv3-staging-233036",
+      "StackId": "arn:aws:cloudformation:us-east-2:740740576418:stack/amplify-meltv3-staging-233036/52a763a0-f766-11ed-b8b9-02c28f68d36d",
+      "AmplifyAppId": "d3tzwyg89fo3mq"
+    },
+    "categories": {
+      "auth": {
+        "meltv3": {}
+      },
+      "storage": {
+        "s3meltv3storage4f4b70ac": {}
+      }
+    }
+  }
+}

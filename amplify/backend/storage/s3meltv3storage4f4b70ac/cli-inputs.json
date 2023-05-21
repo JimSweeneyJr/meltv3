@@ -1,0 +1,12 @@
+{
+  "resourceName": "s3meltv3storage4f4b70ac",
+  "bucketName": "meltv3-storage-4f4b70ac",
+  "policyUUID": "5ee996ff",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "READ"
+  ]
+}
