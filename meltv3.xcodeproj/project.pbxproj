@@ -14,6 +14,17 @@
 		22D811302A1992F300230978 /* meltv3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D8112F2A1992F300230978 /* meltv3Tests.swift */; };
 		22D8113A2A1992F300230978 /* meltv3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D811392A1992F300230978 /* meltv3UITests.swift */; };
 		22D8113C2A1992F300230978 /* meltv3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D8113B2A1992F300230978 /* meltv3UITestsLaunchTests.swift */; };
+		22D8114A2A19978B00230978 /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 22D811492A19978B00230978 /* AWSAPIPlugin */; };
+		22D8114C2A19978B00230978 /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 22D8114B2A19978B00230978 /* AWSCognitoAuthPlugin */; };
+		22D8114E2A19978B00230978 /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 22D8114D2A19978B00230978 /* AWSDataStorePlugin */; };
+		22D811502A19978B00230978 /* AWSLocationGeoPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 22D8114F2A19978B00230978 /* AWSLocationGeoPlugin */; };
+		22D811522A19978B00230978 /* AWSPinpointAnalyticsPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 22D811512A19978B00230978 /* AWSPinpointAnalyticsPlugin */; };
+		22D811542A19978B00230978 /* AWSPinpointPushNotificationsPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 22D811532A19978B00230978 /* AWSPinpointPushNotificationsPlugin */; };
+		22D811562A19978B00230978 /* AWSPluginsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 22D811552A19978B00230978 /* AWSPluginsCore */; };
+		22D811582A19978B00230978 /* AWSPredictionsPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 22D811572A19978B00230978 /* AWSPredictionsPlugin */; };
+		22D8115A2A19978B00230978 /* AWSS3StoragePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 22D811592A19978B00230978 /* AWSS3StoragePlugin */; };
+		22D8115C2A19978B00230978 /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = 22D8115B2A19978B00230978 /* Amplify */; };
+		22D8115E2A19978B00230978 /* CoreMLPredictionsPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 22D8115D2A19978B00230978 /* CoreMLPredictionsPlugin */; };
 		306AB150DD8FD69B6CDCED6A /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3477449B9FBF0D6C1A06170 /* Slide.swift */; };
 		61F56C71999EAB62DCA76001 /* Slide+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026543DA29E59A0F2CDD6CE1 /* Slide+Schema.swift */; };
 		B0759A98B2CBF7CE94084571 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EF491ABC50E45CCAB386C1 /* AmplifyModels.swift */; };
@@ -39,7 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		026543DA29E59A0F2CDD6CE1 /* Slide+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; lastKnownFileType = sourcecode.swift; name = "Slide+Schema.swift"; path = "amplify/generated/models/Slide+Schema.swift"; sourceTree = "<group>"; };
+		026543DA29E59A0F2CDD6CE1 /* Slide+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Slide+Schema.swift"; path = "amplify/generated/models/Slide+Schema.swift"; sourceTree = "<group>"; };
 		22D8111B2A1992F100230978 /* meltv3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meltv3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D8111E2A1992F100230978 /* meltv3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meltv3App.swift; sourceTree = "<group>"; };
 		22D811202A1992F100230978 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,10 +61,10 @@
 		22D811352A1992F300230978 /* meltv3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meltv3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D811392A1992F300230978 /* meltv3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meltv3UITests.swift; sourceTree = "<group>"; };
 		22D8113B2A1992F300230978 /* meltv3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meltv3UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		526934C42160BB7E80D6C205 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; lastKnownFileType = text.json; name = amplifyconfiguration.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
-		78ADAEFFA7A832987A086FD4 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; lastKnownFileType = text.json; name = awsconfiguration.json; path = awsconfiguration.json; sourceTree = "<group>"; };
-		91EF491ABC50E45CCAB386C1 /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; lastKnownFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
-		E3477449B9FBF0D6C1A06170 /* Slide.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; lastKnownFileType = sourcecode.swift; name = Slide.swift; path = amplify/generated/models/Slide.swift; sourceTree = "<group>"; };
+		526934C42160BB7E80D6C205 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		78ADAEFFA7A832987A086FD4 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		91EF491ABC50E45CCAB386C1 /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		E3477449B9FBF0D6C1A06170 /* Slide.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Slide.swift; path = amplify/generated/models/Slide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +72,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D8114E2A19978B00230978 /* AWSDataStorePlugin in Frameworks */,
+				22D8115C2A19978B00230978 /* Amplify in Frameworks */,
+				22D811562A19978B00230978 /* AWSPluginsCore in Frameworks */,
+				22D811582A19978B00230978 /* AWSPredictionsPlugin in Frameworks */,
+				22D811542A19978B00230978 /* AWSPinpointPushNotificationsPlugin in Frameworks */,
+				22D8114A2A19978B00230978 /* AWSAPIPlugin in Frameworks */,
+				22D811522A19978B00230978 /* AWSPinpointAnalyticsPlugin in Frameworks */,
+				22D811502A19978B00230978 /* AWSLocationGeoPlugin in Frameworks */,
+				22D8114C2A19978B00230978 /* AWSCognitoAuthPlugin in Frameworks */,
+				22D8115E2A19978B00230978 /* CoreMLPredictionsPlugin in Frameworks */,
+				22D8115A2A19978B00230978 /* AWSS3StoragePlugin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +196,19 @@
 			dependencies = (
 			);
 			name = meltv3;
+			packageProductDependencies = (
+				22D811492A19978B00230978 /* AWSAPIPlugin */,
+				22D8114B2A19978B00230978 /* AWSCognitoAuthPlugin */,
+				22D8114D2A19978B00230978 /* AWSDataStorePlugin */,
+				22D8114F2A19978B00230978 /* AWSLocationGeoPlugin */,
+				22D811512A19978B00230978 /* AWSPinpointAnalyticsPlugin */,
+				22D811532A19978B00230978 /* AWSPinpointPushNotificationsPlugin */,
+				22D811552A19978B00230978 /* AWSPluginsCore */,
+				22D811572A19978B00230978 /* AWSPredictionsPlugin */,
+				22D811592A19978B00230978 /* AWSS3StoragePlugin */,
+				22D8115B2A19978B00230978 /* Amplify */,
+				22D8115D2A19978B00230978 /* CoreMLPredictionsPlugin */,
+			);
 			productName = meltv3;
 			productReference = 22D8111B2A1992F100230978 /* meltv3.app */;
 			productType = "com.apple.product-type.application";
@@ -246,6 +281,9 @@
 				Base,
 			);
 			mainGroup = 22D811122A1992F100230978;
+			packageReferences = (
+				22D811482A19978B00230978 /* XCRemoteSwiftPackageReference "amplify-swift" */,
+			);
 			productRefGroup = 22D8111C2A1992F100230978 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -613,6 +651,75 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		22D811482A19978B00230978 /* XCRemoteSwiftPackageReference "amplify-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		22D811492A19978B00230978 /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22D811482A19978B00230978 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSAPIPlugin;
+		};
+		22D8114B2A19978B00230978 /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22D811482A19978B00230978 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		22D8114D2A19978B00230978 /* AWSDataStorePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22D811482A19978B00230978 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSDataStorePlugin;
+		};
+		22D8114F2A19978B00230978 /* AWSLocationGeoPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22D811482A19978B00230978 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSLocationGeoPlugin;
+		};
+		22D811512A19978B00230978 /* AWSPinpointAnalyticsPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22D811482A19978B00230978 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSPinpointAnalyticsPlugin;
+		};
+		22D811532A19978B00230978 /* AWSPinpointPushNotificationsPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22D811482A19978B00230978 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSPinpointPushNotificationsPlugin;
+		};
+		22D811552A19978B00230978 /* AWSPluginsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22D811482A19978B00230978 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSPluginsCore;
+		};
+		22D811572A19978B00230978 /* AWSPredictionsPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22D811482A19978B00230978 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSPredictionsPlugin;
+		};
+		22D811592A19978B00230978 /* AWSS3StoragePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22D811482A19978B00230978 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSS3StoragePlugin;
+		};
+		22D8115B2A19978B00230978 /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22D811482A19978B00230978 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = Amplify;
+		};
+		22D8115D2A19978B00230978 /* CoreMLPredictionsPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22D811482A19978B00230978 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = CoreMLPredictionsPlugin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 22D811132A1992F100230978 /* Project object */;
 }
