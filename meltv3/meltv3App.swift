@@ -6,12 +6,41 @@
 //
 
 import SwiftUI
+import Amplify
+import AWSCognitoAuthPlugin
 
 @main
-struct meltv3App: App {
+struct Meltv3App: App {
+    
+    @ObservedObject var sessionManager = SessionManager()
+    
+    init() {
+            do {
+                try Amplify.add(plugin: AWSCognitoAuthPlugin())
+                try Amplify.configure()
+                print("Amplify configured with auth plugin")
+            } catch {
+                print("Failed to initialize Amplify with \(error)")
+            }
+        }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            switch sessionManager.authState {
+            case .login:
+                LoginView()
+                
+            case .signUp:
+                SignUpView()
+                
+            case .confirmationCode(let username):
+                ConfirmationView(username: username)
+                
+            case .session(let user):
+                SessionView(user: user)
+            }
         }
     }
+    
+    
 }
