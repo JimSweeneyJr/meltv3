@@ -150,19 +150,19 @@
 			isa = PBXGroup;
 			children = (
 				22D8111E2A1992F100230978 /* meltv3App.swift */,
-				22D811612A19999000230978 /* CardsSection.swift */,
+				22D811632A1999A100230978 /* SplashScreenView.swift */,
 				22D8116C2A199A4F00230978 /* ContentView.swift */,
+				22D811652A1999A800230978 /* FooterSection.swift */,
 				22D8116E2A199B1D00230978 /* LoginView.swift */,
+				22D811722A199B2300230978 /* SignUpView.swift */,
+				22D811762A199B2600230978 /* ConfirmationView.swift */,
 				22D811702A199B2100230978 /* SessionManager.swift */,
 				22D811742A199B2400230978 /* SessionView.swift */,
-				22D811762A199B2600230978 /* ConfirmationView.swift */,
-				22D811782A199BB900230978 /* Card.swift */,
-				22D811722A199B2300230978 /* SignUpView.swift */,
-				22D811652A1999A800230978 /* FooterSection.swift */,
 				22D811672A1999AE00230978 /* CardView.swift */,
-				22D8116B2A1999BE00230978 /* MELT-Bridging-Header.h */,
-				22D811632A1999A100230978 /* SplashScreenView.swift */,
+				22D811612A19999000230978 /* CardsSection.swift */,
+				22D811782A199BB900230978 /* Card.swift */,
 				22D811222A1992F300230978 /* Assets.xcassets */,
+				22D8116B2A1999BE00230978 /* MELT-Bridging-Header.h */,
 				22D811242A1992F300230978 /* Preview Content */,
 			);
 			path = meltv3;
