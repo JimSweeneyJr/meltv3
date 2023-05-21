@@ -26,20 +26,20 @@ struct Meltv3App: App {
     
     var body: some Scene {
         WindowGroup {
-            SplashScreenView()
-//            switch sessionManager.authState {
-//            case .login:
-//                LoginView()
-//
-//            case .signUp:
-//                SignUpView()
-//
-//            case .confirmationCode(let username):
-//                ConfirmationView(username: username)
-//
-//            case .session(let user):
-//                SessionView(user: user)
-//            }
+//            SplashScreenView()
+            switch sessionManager.authState {
+            case .login:
+                LoginView()
+
+            case .signUp:
+                SignUpView()
+
+            case .confirmationCode(let username):
+                ConfirmationView(username: username)
+
+            case .session(let user):
+                SessionView(user: user)
+            }
         }
     }
     
